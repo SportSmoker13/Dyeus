@@ -19,8 +19,6 @@ function CardInfo(props) {
     }
   };
 
-  console.log(props.offerList);
-
   if (props.offerList.mostPopular === true) {
     return (
       <div className="card-info">
